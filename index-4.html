@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <style>
+        .logo {
+  display: grid;
+  /* background-color: #3b5998; */
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+#LogoText {
+    color: white;
+    font-size: 28px;
+        font-weight: 800;
+    text-transform: uppercase;
+    /* background: -webkit-linear-gradient(#eee, rgb(255, 254, 254)); */
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent */
+}
+.btn-primary{
+ background: #f0473e !important;
+}
+
+.service-box:hover:before {
+    background-color: white !important; 
+    color :black !important;
+}
+.service-box:hover:before {
+    color :black ;
+}
+#LogoText  span {
+  font-size: 2.5rem;
+}
+#LogoText {
+    font-size: 2rem;
+  }
+  .navbar{
+    background: #01212e;
+    
+
+  }
+    </style>
+<!-- Mirrored from preview.pichforest.com/xegal-django/layouts/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 05:27:47 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Xegal | Responsive Bootstrap 5 Landing Page Template | Pichforest</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium Bootstrap v5.1.0. Landing Page Template" />
+        <meta name="keywords" content="Bootstrap v5.1.0., premium, marketing, multipurpose" />
+        <meta content="Pichforest" name="author" />
+
+        <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+
+        <link href="css/pe-icon-7.css" rel="stylesheet" type="text/css" />
+
+        <!-- Swiper-slider Css -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!-- CUSTOM CSS -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+
+
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60">
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END PRELOADER -->
+
+        <!-- STRAT NAVBAR -->
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top sticky">
+            <div class="container">
+                <a class="navbar-brand" href="index-4.html">
+                    <div className="logo logo-light">
+                        <h2 id="LogoText">
+                            <span style="    background: #f0473e !important;
+                            border-radius: 10px;"> SW</span>
+                          <span>S</span>crapa
+                          <span>W</span>holesaller
+                        </h2>
+                  </div>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+                <!--end button-->
+                <div class="collapse navbar-collapse" id="navbarCollapse ">
+                    <!-- <ul id="navbar-navlist" class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                     
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul> -->
+                    <!--end navbar nav-->
+                    <!-- <div class="phone-call ms-2 mb-3 mb-lg-0">
+                        <a href="#" class="nav-link"><i class="mdi mdi-phone me-1"></i> +00 1234 5678 90</a>
+                    </div> -->
+                </div> 
+                <!--end collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!-- Hero Start -->
+        <section class="bg-home4" id="home">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="4 mb-4">       Scrap your vehicle in environment 
+                               friendly way with Scrapa. 
+                             <span class="text-secondary fw-medium">The Best Entrepreneur.</span></h1>
+                            <p class="text-muted fs-17">Instant Offer | Prompt Pick-up | Hassle-free end-to-end service | Follows all legal compliances.</p>
+                        <button class="btn btn-primary mt-4">Learn More <span
+                                class="ms-2 right-icon">&#8594;</span></button>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 "  style="color : black">
+                        <div class="card p-5 border-0 box-shadow mt-5 mt-lg-0">
+                            <div class="text-center">
+                                <p class="text-muted mb-2 f-13 text-uppercase" >Welcome To Scrapa</p>
+                                <h5 class="form-dark mb-4">Contact Us </h5>
+                            </div>
+                            <form class="registration-form">
+                                <div class="mb-4">
+                                    <label for="exampleFormControlInput1" class="f-15 form-label">Your Name*</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="exampleFormControlInput2" class="f-15  form-label">Your email*</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="exampleFormControlInput3" class="f-15  form-label">Scrap Type*</label>
+                                    <!-- <input type="password" class="form-control" id="exampleFormControlInput3"
+                                        placeholder="Enter your password"> -->
+                                        <div class="custom-select form-control" style="width:200px;">
+                                            <select>
+                                              <option value="0">Select Your Scrap:</option>
+                                              <option value="1">Audi</option>
+                                              <option value="2">BMW</option>
+                                              <option value="3">Citroen</option>
+                                              <option value="4">Ford</option>
+                                              <option value="5">Honda</option>
+                                              <option value="6">Jaguar</option>
+                                              <option value="7">Land Rover</option>
+                                              <option value="8">Mercedes</option>
+                                              <option value="9">Mini</option>
+                                              <option value="10">Nissan</option>
+                                              <option value="11">Toyota</option>
+                                              <option value="12">Volvo</option>
+                                            </select>
+                                          </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100"> Submit Your Details <i
+                                        class="mdi mdi-telegram ms-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero End -->
+
+        <!-- Service Start -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="text-center mb-lg-5 mb-4">
+                            <h3>Our <span class="text-primary">Services</span></h3>
+                            <p class="text-muted">You can combine all the Xegal templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box mt-4">
+                            <div class="mb-4">
+                                <i class="pe-7s-headphones service-icon"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5>Awesome Support</h5>
+                                <p class="mb-4">If the distribution of letters and distribution 'words' is random, the reader will not be distracted.</p>
+                                <a href="#">Read more <span class="right-icon">&#8594;</span></a>
+                            </div>
+                        </div>
+                        <!--end service-box-->
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box mt-4">
+                            <div class="mb-4">
+                                <i class="pe-7s-tools service-icon"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5>Solutions Business</h5>
+                                <p class="mb-4">There is now an abundance of readable dummy texts. These are usually used when a text is required.</p>
+                                <a href="#">Read more <span class="right-icon">&#8594;</span></a>
+                            </div>
+                        </div>
+                        <!--end service-box-->
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box mt-4">
+                            <div class="mb-4">
+                                <i class="pe-7s-display1 service-icon"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5>24/7 Customer Support</h5>
+                                <p class="mb-4">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century.</p>
+                                <a href="#">Read more <span class="right-icon">&#8594;</span></a>
+                            </div>
+                        </div>
+                        <!--end service-box-->
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box mt-4">
+                            <div class="mb-4">
+                                <i class="pe-7s-cup service-icon"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5>Good Price</h5>
+                                <p class="mb-4">Allegedly, a Latin scholar established the origin of the established text by compiling unusual word.</p>
+                                <a href="#">Read more <span class="right-icon">&#8594;</span></a>
+                            </div>
+                        </div>
+                        <!--end service-box-->
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box mt-4">
+                            <div class="mb-4">
+                                <i class="pe-7s-light service-icon"></i>
+                            </div>
+                            <div class="service-content">
+                                <h5>Branding Identity</h5>
+                                <p class="mb-4">One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others.</p>
+                                <a href="#">Read more <span class="right-icon">&#8594;</span></a>
+                            </div>
+                        </div>
+                        <!--end service-box-->
+                    </div>
+                    <!--end col-->
+
+                 
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!-- END SERVICE -->
+
+      
+
+        <!-- START FEATURES -->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="text-center mb-5">
+                            <h3>Product <span class="text-primary">Features</span></h3>
+                            <p class="text-muted">Start working with Xegal that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="text-center mb-4 mb-lg-0">
+                            <img src="images/features/img-1.png" alt="Feature" class="img-fluid position-relative" />
+                            <div class="position-absolute top-0 start-0" style="z-index: -1;">
+                                <img src="images/features/features-bg.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-6 offset-lg-1">
+                        <div class="features-box">
+                            <div class="features-icon mb-4">
+                                <i class="mdi mdi-laptop-mac"></i>
+                            </div>
+                            <h5 class="mb-3">Activity Reporting</h5>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-2">Unice is Perfect landing HTML template for any business. it has all features and modules to create your amazing landing page.</p>
+                            </div>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-3">The acquisition of knowledge, skills, values befs, and habits. Educational methods include teach ing, training, storytelling</p>
+                            </div>
+                            <a href="#" class="text-primary">Read More <span class="right-icon ms-2">&#8594;</span></a>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-6">
+                        <div class="features-box">
+                            <div class="features-icon mb-4">
+                                <i class="mdi mdi-account-group"></i>
+                            </div>
+                            <h5 class="mb-3">Team Management</h5>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </div>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-2">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p>
+                            </div>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-3">Using Landrick to build your site means never worrying about designing another page or cross browser compatibility.</p>
+                            </div>
+                            
+                            <a href="#" class="text-primary">Read More <span class="right-icon ms-2">&#8594;</span></a>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-5 col-md-6 offset-lg-1 order-first order-md-last">
+                        <div class="text-center mb-4 mb-lg-0">
+                            <img src="images/features/img-2.png" alt="Feature" class="img-fluid position-relative" />
+                            <div class="position-absolute top-0 start-0" style="z-index: -1;">
+                                <img src="images/features/features-bg.png" alt="" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-5">
+                        <div class="text-center mb-4 mb-lg-0">
+                            <img src="images/features/img-3.png" alt="Feature" class="img-fluid position-relative" />
+                            <div class="position-absolute top-0 start-0" style="z-index: -1;">
+                                <img src="images/features/features-bg.png" alt="" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-5 col-md-6 offset-lg-1">
+                        <div class="features-box">
+                            <div class="features-icon mb-4">
+                                <i class="mdi mdi-chart-bell-curve"></i>
+                            </div>
+                            <h5 class="mb-3">Marketing Analysis</h5>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-2">These alternatives to the classic Lorem Ipsum texts are often amusing and tell short, funny or nonsensical stories.</p>
+                            </div>
+                            <div class="d-flex"><i class="mdi mdi-check-bold align text-primary me-2"></i>
+                                <p class="text-muted mb-3">One may speculate that over the course of time certain letters were added or deleted at various positions within the text.</p>
+                            </div>
+                            <a href="#" class="text-primary">Read More <span class="right-icon ms-2">&#8594;</span></a>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!-- Features End -->
+
+
+       
+
+        
+
+
+      
+
+
+        <!-- START BLOG -->
+       
+
+
+       
+
+
+      
+
+        <!-- START FOOTER -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="mb-4">
+                            <a href="index-4.html"><img src="images/logo-dark.png" alt="" class="logo-dark"
+                                    height="24" /></a>
+                            <p class="text-muted mt-4 mb-2 me-lg-4">We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-6">
+                        <h6 class="mb-3">Services</h6>
+                        <ul class="list-unstyled company-sub-menu">
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Business Analysis</a></li>
+                            <li><a href="#">How It Work</a></li>
+                            <li><a href="#">Fix & Flip</a></li>
+                            <li><a href="#">Social Activation</a></li>
+                        </ul>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-2 col-6">
+                        <h6 class="mb-3">About Us</h6>
+                        <ul class="list-unstyled company-sub-menu">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <!--end col-->
+                    <div class="col-lg-4">
+                        <h6 class="mb-3">Company</h6>
+                        <p class="text-muted">4806 Spring Haven Trail South Orange, NJ 07079</p>
+                        <p class="text-muted pb-2">Email: Support@gamil.com</p>
+                        <ul class="list-inline footer-social-list mt-4">
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-skype"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="mdi mdi-slack"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <div class="footer-alt py-4 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center text-muted">
+                            <p class="mb-0 f-15">
+                                <script>document.write(new Date().getFullYear())</script> &copy; Xegal - Premium Landing Template by <a href="https://pichforest.com/" target="_blank" class="text-reset text-decoration-underline">Pichforest</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </div>
+        <!--end footer-alt-->
+        <!-- END FOOTER -->
+
+        <!--start back-to-top-->
+        <button onclick="topFunction()" id="back-to-top">
+            <i class="mdi mdi-arrow-up-bold"></i>
+        </button>
+        <!--end back-to-top-->
+
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <!-- Swiper slider -->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!-- Contact Js -->
+        <script src="js/contact.js"></script>
+
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+
+    </body>
+
+
+<!-- Mirrored from preview.pichforest.com/xegal-django/layouts/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 05:27:55 GMT -->
+</html>
